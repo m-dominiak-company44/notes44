@@ -4,7 +4,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/notes44-privacy',
+    base: '/notes44-privacy/',
     plugins: [react()],
     resolve: {
         alias: {
