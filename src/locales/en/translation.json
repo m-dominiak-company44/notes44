@@ -1,0 +1,105 @@
+{
+    "button": "Click me",
+    "home": "Home",
+    "about": "About",
+    "product": {
+        "hero": {
+            "title": "Your thoughts, your control",
+            "subtitle": "Notes44 is a secure note-taking app tailored to your needs"
+        },
+        "features": {
+            "security": {
+                "title": "Security",
+                "items": ["Locally stored data", "You decide where your data goes"]
+            },
+            "plugins": {
+                "title": "Multi-platform availability",
+                "description": "Notes44 app is available for Android, Windows and in your browser"
+            },
+            "openness": {
+                "title": "Open standards",
+                "items": ["Markdown notes", "Plain text storage"]
+            }
+        },
+        "sync": {
+            "title": "Sync between devices",
+            "description": "Secure synchronization",
+            "cloud": "Cloud",
+            "selfhosted": "Self-hosted server"
+        },
+        "download": "Download",
+        "comingSoon": "Windows version coming soon"
+    },
+    "privacy-policy": "Privacy Policy",
+    "privacy": {
+        "title": "Notes44 Privacy Policy",
+        "subtitle": "Your data, your control",
+        "introduction": {
+            "title": "1. Introduction",
+            "content": "Notes44 is a note-taking application that respects user privacy. This policy explains what data we collect and how we use it."
+        },
+        "dataCollection": {
+            "title": "2. Collected Data",
+            "local": {
+                "title": "2.1 Locally Stored Data",
+                "items": ["Notes and folders created by the user", "Application settings (language, theme)", "Vault information"]
+            },
+            "login": {
+                "title": "2.2 Login Data (optional)",
+                "items": ["Email address (when logging in)", "Access token (when using Google Drive)"]
+            }
+        },
+        "googleDrive": {
+            "title": "3. Google Drive Integration",
+            "description": "If you choose to sync with Google Drive:",
+            "items": [
+                "Access to your Google account is required",
+                "Application will only access files it created",
+                "Permission scope: https://www.googleapis.com/auth/drive.file"
+            ]
+        },
+        "userRights": {
+            "title": "7. User Rights",
+            "items": ["Choose data storage method (local or cloud)", "Delete all your data", "Export your notes", "Change privacy settings"]
+        },
+        "contact": {
+            "title": "8. Contact",
+            "content": "For privacy-related questions, please contact the Notes44 team."
+        },
+        "policyChanges": {
+            "title": "9. Policy Changes",
+            "content": "We reserve the right to update this policy. Users will be notified of changes through the application."
+        },
+        "dataStorage": {
+            "title": "4. Data Storage",
+            "local": {
+                "title": "4.1 Local Storage",
+                "description": "All notes are stored locally on your device by default"
+            },
+            "sync": {
+                "title": "4.2 Synchronization (optional)",
+                "description": "Data remains stored locally even when using cloud sync"
+            }
+        },
+        "permissions": {
+            "title": "5. App Permissions",
+            "description": "The app requires following permissions:",
+            "items": ["Access to device storage (for storing notes)", "Internet access (for sync functionality)"]
+        },
+        "security": {
+            "title": "6. Security",
+            "items": [
+                "Login credentials are securely stored",
+                "Passwords must meet security requirements (min 8 chars, uppercase, number, special character)",
+                "All server communications are encrypted"
+            ]
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} Notes44. All rights reserved."
+    },
+    "notfound": {
+        "title": "Page Not Found",
+        "description": "The page you're looking for doesn't exist or has been moved."
+    }
+}

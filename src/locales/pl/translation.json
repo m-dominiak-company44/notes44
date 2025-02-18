@@ -1,0 +1,135 @@
+{
+    "button": "Kliknij mnie",
+    "home": "Strona główna",
+    "about": "O nas",
+    "product": {
+        "hero": {
+            "title": "Twoje myśli pod pełną kontrolą",
+            "subtitle": "Notes44 to bezpieczna aplikacja do notatek dostosowana do Twoich potrzeb"
+        },
+        "features": {
+            "security": {
+                "title": "Bezpieczeństwo",
+                "items": ["Dane przechowywane lokalne", "Ty decydujesz gdzie lądują Twoje dane"]
+            },
+            "plugins": {
+                "title": "Dostępność na wielu platformach",
+                "description": "Aplikacja Notes44 dostępna jest pod Androidem, Windowsem i w przeglądarce"
+            },
+            "openness": {
+                "title": "Otwarte standardy",
+                "items": ["Notatki w Markdown", "Przechowywanie w czystym tekście"]
+            }
+        },
+        "sync": {
+            "title": "Synchronizacja między urządzeniami",
+            "description": "Bezpieczna synchronizacja",
+            "cloud": "Chmura",
+            "selfhosted": "Własny serwer"
+        },
+        "download": "Pobierz",
+        "comingSoon": "Wersja na system Windows dostępna wkrótce"
+    },
+    "privacy-policy": "Polityka Prywatności",
+    "privacy": {
+        "title": "Polityka Prywatności Notes44",
+        "subtitle": "Twoje dane, Twoja kontrola",
+        "introduction": {
+            "title": "1. Wprowadzenie",
+            "content": "Notes44 to aplikacja do tworzenia notatek, która szanuje prywatność użytkowników. Niniejsza polityka wyjaśnia jakie dane zbieramy i jak je wykorzystujemy."
+        },
+        "dataCollection": {
+            "title": "2. Zbierane Dane",
+            "local": {
+                "title": "2.1 Dane Przechowywane Lokalnie",
+                "items": [
+                    "Notatki i foldery utworzone przez użytkownika",
+                    "Ustawienia aplikacji (język, motyw)",
+                    "Informacje o wybranym skarbcu"
+                ]
+            },
+            "login": {
+                "title": "2.2 Dane przy Logowaniu (opcjonalne)",
+                "items": ["Adres email (w przypadku logowania)", "Token dostępu (przy korzystaniu z Google Drive)"]
+            }
+        },
+        "googleDrive": {
+            "title": "3. Integracja z Google Drive",
+            "description": "Jeśli zdecydujesz się na synchronizację z Google Drive:",
+            "items": [
+                "Wymagany będzie dostęp do Twojego konta Google",
+                "Aplikacja będzie miała dostęp tylko do plików, które sama utworzy",
+                "Zakres uprawnień: https://www.googleapis.com/auth/drive.file"
+            ]
+        },
+        "userRights": {
+            "title": "7. Prawa Użytkownika",
+            "items": [
+                "Wyboru sposobu przechowywania danych (lokalnie lub w chmurze)",
+                "Usunięcia wszystkich swoich danych",
+                "Eksportu swoich notatek",
+                "Zmiany ustawień prywatności"
+            ]
+        },
+        "contact": {
+            "title": "8. Kontakt",
+            "content": "W przypadku pytań dotyczących prywatności, prosimy o kontakt z zespołem Notes44."
+        },
+        "policyChanges": {
+            "title": "9. Zmiany w Polityce",
+            "content": "Zastrzegamy sobie prawo do aktualizacji tej polityki. O zmianach użytkownicy zostaną powiadomieni poprzez aplikację."
+        },
+        "summary": {
+            "title": "Podsumowanie Zasad",
+            "description": "Twoja prywatność jest naszym priorytetem - masz pełną kontrolę nad danymi.",
+            "local": {
+                "title": "Dane Lokalne",
+                "description": "Wszystkie dane przechowywane lokalnie domyślnie"
+            },
+            "sync": {
+                "title": "Bezpieczna Synchronizacja",
+                "description": "Szyfrowanie end-to-end dla synchronizacji"
+            }
+        },
+        "dataHandling": {
+            "title": "Przetwarzanie Danych",
+            "content": "Nie zbieramy żadnych danych osobowych ani statystyk użycia..."
+        },
+        "versions": {
+            "title": "Historia Wersji",
+            "v1": "Ujednolicenie sekcji polityki i poprawa czytelności",
+            "v2": "Wyjaśnione zasady przetwarzania danych dla różnych funkcji"
+        },
+        "dataStorage": {
+            "title": "4. Przechowywanie Danych",
+            "local": {
+                "title": "4.1 Przechowywanie Lokalne",
+                "description": "Wszystkie notatki są domyślnie przechowywane lokalnie na Twoim urządzeniu"
+            },
+            "sync": {
+                "title": "4.2 Synchronizacja (opcjonalna)",
+                "description": "Dane pozostają zapisane lokalnie nawet przy użyciu synchronizacji w chmurze"
+            }
+        },
+        "permissions": {
+            "title": "5. Uprawnienia Aplikacji",
+            "description": "Aplikacja wymaga następujących uprawnień:",
+            "items": ["Dostęp do pamięci urządzenia (do przechowywania notatek)", "Dostęp do internetu (dla funkcji synchronizacji)"]
+        },
+        "security": {
+            "title": "6. Bezpieczeństwo",
+            "items": [
+                "Dane logowania są odpowiednio zabezpieczone",
+                "Hasła muszą spełniać wymogi bezpieczeństwa (minimum 8 znaków, wielka litera, cyfra, znak specjalny)",
+                "Komunikacja z serwerami jest szyfrowana"
+            ]
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} Notes44. Wszelkie prawa zastrzeżone."
+    },
+    "notfound": {
+        "title": "Strona nie znaleziona",
+        "description": "Strona której szukasz nie istnieje lub została przeniesiona."
+    }
+}
