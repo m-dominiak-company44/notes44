@@ -25,13 +25,13 @@ function App() {
 
     return (
         <div className="flex min-h-screen flex-col">
-            <nav className="relative flex items-center justify-between border-b p-4">
-                <div className="absolute left-1/2 flex -translate-x-1/2 gap-4">
+            <nav className="flex flex-col items-center justify-between gap-4 border-b p-4 md:flex-row">
+                <div className="order-2 flex w-full justify-center gap-4 md:order-1 md:w-auto">
                     <MyNavLink to="" label={t('home')} />
                     <MyNavLink to="?page=privacy" label={t('privacy-policy')} />
                 </div>
 
-                <div className="ml-auto flex gap-2">
+                <div className="order-1 flex w-full justify-end gap-2 md:order-2 md:w-auto">
                     <ThemeToggle />
                     <LanguageToggle />
                 </div>
